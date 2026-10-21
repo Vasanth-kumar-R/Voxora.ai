@@ -1,0 +1,137 @@
+{
+  "product_name": "FlowDesk AI",
+  "product_tagline": "Autonomous Customer Support Automation for Fast-Growing SMBs",
+  "disclaimer": "DEMONSTRATION DATA ONLY: All prices, features, and company specifications are fictional demo data for Voxora AI platform evaluation.",
+  "overview": {
+    "short_description": "FlowDesk AI is an autonomous AI customer support platform designed for SMBs and e-commerce companies that automatically resolves 65%+ of routine tickets, provides AI agent assistance, and keeps customers delighted 24/7.",
+    "detailed_description": "FlowDesk AI seamlessly connects to existing help desks and communication channels (Zendesk, Freshdesk, Intercom, Shopify, Slack, Email). Using fine-tuned conversational intelligence and grounding on company documentation, it categorizes tickets, resolves repetitive tier-1 customer inquiries, drafts replies for human agents, and monitors customer sentiment in real time.",
+    "primary_value_propositions": [
+      "Instant first response times (reduced from hours to under 30 seconds)",
+      "Autonomous resolution of 65%+ of tier-1 support tickets",
+      "50% reduction in agent workload and support overhead",
+      "24/7 coverage without hiring offshore graveyard shifts",
+      "Setup in under 15 minutes with zero code required"
+    ]
+  },
+  "target_audience": {
+    "company_sizes": ["Small to mid-sized businesses (10 - 250 employees)", "Rapidly scaling e-commerce brands", "B2B SaaS startups"],
+    "support_team_size": "Teams with 2 to 25 support representatives experiencing ticket backlog",
+    "typical_roles": ["VP of Customer Success", "Head of Support", "COO / Operations Director", "E-commerce Store Owner"]
+  },
+  "key_features_and_benefits": [
+    {
+      "name": "Autonomous Tier-1 Resolution",
+      "description": "Handles repetitive queries such as order status, shipping questions, password resets, refund status, and return policy questions without human involvement.",
+      "benefit": "Frees up your human agents to focus on high-value, complex, VIP customer cases."
+    },
+    {
+      "name": "Live Agent Copilot",
+      "description": "For tickets requiring human review, FlowDesk AI drafts contextual responses, summarizes long email threads, and suggests the next best action.",
+      "benefit": "Accelerates agent reply speed by 3x and improves team consistency."
+    },
+    {
+      "name": "Multi-Source Knowledge Ingestion",
+      "description": "Syncs knowledge from Help Center URLs, Notion docs, Google Docs, PDFs, and historical resolved tickets automatically.",
+      "benefit": "Zero manual retraining required; auto-syncs whenever your documentation updates."
+    },
+    {
+      "name": "Sentiment & Urgency Triage",
+      "description": "Detects customer frustration, churn risk, and billing disputes, immediately escalating critical issues to senior managers with high priority.",
+      "benefit": "Prevents customer churn and catches escalations before bad reviews happen."
+    },
+    {
+      "name": "Enterprise Guardrails & Hallucination Defense",
+      "description": "Built-in confidence scoring: if confidence drops below 85%, it gracefully hands off to a human agent with full context.",
+      "benefit": "Maintains 100% brand safety and eliminates hallucinations."
+    }
+  ],
+  "pricing_tiers": [
+    {
+      "tier": "Starter",
+      "demo_price": "$49 / month",
+      "annual_price": "$39 / month (billed annually, 20% discount)",
+      "ideal_for": "Small shops and startups with 1-3 agents",
+      "includes": [
+        "Up to 500 autonomous resolutions per month",
+        "3 agent seats",
+        "Email and web chat widget integrations",
+        "Standard business hours support",
+        "Basic analytics and sentiment reporting"
+      ]
+    },
+    {
+      "tier": "Growth (Most Popular)",
+      "demo_price": "$149 / month",
+      "annual_price": "$119 / month (billed annually, 20% discount)",
+      "ideal_for": "Growing e-commerce brands and SaaS teams with 4-10 agents",
+      "includes": [
+        "Up to 2,500 autonomous resolutions per month",
+        "10 agent seats",
+        "Omnichannel (Zendesk, Shopify, Slack, Email, Web Chat)",
+        "Live Agent Copilot assistant",
+        "Sentiment analysis & smart triage routing",
+        "Priority chat and email support"
+      ]
+    },
+    {
+      "tier": "Scale",
+      "demo_price": "$399 / month",
+      "annual_price": "$319 / month (billed annually, 20% discount)",
+      "ideal_for": "High-volume support operations with 10+ agents",
+      "includes": [
+        "Up to 10,000 autonomous resolutions per month",
+        "Unlimited agent seats",
+        "Custom CRM integrations (HubSpot, Salesforce, Jira)",
+        "Dedicated onboarding manager & SLA guarantee",
+        "Custom guardrails and sandbox testing environment"
+      ]
+    }
+  ],
+  "commercial_terms": {
+    "free_trial": "14-day fully featured free trial, no credit card required.",
+    "annual_discount": "20% off all tiers when billed annually.",
+    "contract": "Month-to-month flexibility; cancel anytime without penalties.",
+    "overage_policy": "$0.08 per additional resolution if limits are exceeded, with automated alerts."
+  },
+  "integrations": {
+    "supported": [
+      "Zendesk Support",
+      "Freshdesk",
+      "Shopify",
+      "Intercom",
+      "Slack",
+      "HubSpot CRM",
+      "Jira Service Management",
+      "Standard Email (IMAP/SMTP/Gmail)",
+      "Custom REST API & Webhooks"
+    ],
+    "limitations": [
+      "Legacy on-premise mainframe ticketing systems require custom API bridge.",
+      "Does not directly host PBX telephony hardware; relies on voice partners like Voxora AI for phone conversations."
+    ]
+  },
+  "frequently_asked_questions": [
+    {
+      "question": "How long does implementation and setup take?",
+      "answer": "Most teams are fully live within 15 minutes. You simply authorize your help desk (like Zendesk or Shopify), provide your public Help Center URL, and FlowDesk AI immediately generates your initial knowledge graph in sandbox mode."
+    },
+    {
+      "question": "What happens if the AI encounters an issue it cannot answer?",
+      "answer": "FlowDesk AI uses a strict confidence threshold (configurable, defaults to 85%). If the query is outside verified documentation or confidence is low, it summarizes the user's issue and hands it off directly to a human agent without frustrating the customer."
+    },
+    {
+      "question": "Is our customer data secure?",
+      "answer": "Yes. FlowDesk AI is SOC-2 Type II certified and GDPR compliant. All data is encrypted in transit (TLS 1.3) and at rest (AES-256). Furthermore, your proprietary business data is never used to train public foundational AI models."
+    },
+    {
+      "question": "Can we test it before routing real customer tickets?",
+      "answer": "Yes! FlowDesk provides a sandbox simulation mode where your agents can test common customer inquiries and review proposed AI responses before activating live auto-reply."
+    }
+  ],
+  "demo_request_process": {
+    "duration": "20-minute tailored sandbox demonstration",
+    "format": "Interactive screen-share walkthrough with a technical solutions engineer",
+    "preparation": "We load your actual FAQ or sample ticket scenarios so you see FlowDesk resolving your real tickets live.",
+    "booking_requirement": "Customer provides their preferred date, time, and team size."
+  }
+}

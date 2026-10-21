@@ -1,0 +1,14 @@
+{
+  "name": "voxora-ai-platform",
+  "version": "1.0.0",
+  "description": "Voxora AI — Autonomous AI Voice Sales Platform. Tagline: Every conversation. More sales intelligence.",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend start",
+    "dev:backend": "python backend/run.py",
+    "test:backend": "pytest backend/tests -v"
+  },
+  "author": "Voxora AI Team",
+  "license": "MIT"
+}
