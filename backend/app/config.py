@@ -46,7 +46,9 @@ class Settings(BaseSettings):
         "http://localhost:8000",
         "http://127.0.0.1:8000",
         "https://vercel.app",
-        "https://vercel.app"
+        "https://vercel.app",
+        "https://voxora-ai-oz7x.onrender.com",
+        "https://voxora-ai-oz7x.onrender.com"
     ]
     
     # Voice & Language
