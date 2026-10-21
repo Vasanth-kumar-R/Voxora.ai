@@ -7,7 +7,7 @@ import {
   Building, User, Clock, Volume2, BarChart3, XCircle,
 } from "lucide-react";
 import { CallDetail, SalesStatus } from "@/types/call";
-import { retryAnalyzeCall } from "../lib/api";
+import { retryAnalyzeCall } from "../../lib/api";
 
 /* ── Status color map ─────────────────────────────────────────────── */
 const STATUS_MAP: Record<string, { bg: string; border: string; text: string }> = {

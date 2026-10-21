@@ -6,7 +6,7 @@ import {
   FileText, Calendar, Building, Clock, Sparkles, RefreshCw,
 } from "lucide-react";
 import { CallListItem, SalesStatus } from "@/types/call";
-import { getCallsList, deleteCall } from "../lib/api";
+import { getCallsList, deleteCall } from "../../lib/api";
 
 const STATUS_MAP: Record<string, { bg: string; border: string; text: string }> = {
   "Converted": { bg: "rgba(16,185,129,.1)", border: "rgba(16,185,129,.3)", text: "#10b981" },

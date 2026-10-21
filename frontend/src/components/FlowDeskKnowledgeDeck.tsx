@@ -5,7 +5,7 @@ import {
   BookOpen, Check, Layers, DollarSign, HelpCircle,
   Shield, ArrowUpRight, ChevronDown, ChevronUp,
 } from "lucide-react";
-import { getKnowledgeBase } from "../lib/api"; // (Use whichever specific naming function your deck requires here)
+import { getKnowledgeBase } from "../../lib/api"; // (Use whichever specific naming function your deck requires here)
 
 function Card({ children, style }: { children: React.ReactNode; style?: React.CSSProperties }) {
   return <div className="card" style={{ padding: 20, ...style }}>{children}</div>;

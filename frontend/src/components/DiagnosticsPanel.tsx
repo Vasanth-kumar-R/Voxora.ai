@@ -6,7 +6,7 @@ import {
   HardDrive, CheckCircle2, AlertCircle, RefreshCw, Play,
 } from "lucide-react";
 import { DiagnosticsData } from "@/types/call";
-import { getDiagnostics } from "../lib/api";
+import { getDiagnostics } from "../../lib/api";
 
 function StatusBadge({ status }: { status?: string }) {
   const ok = status === "healthy" || status?.includes("Supported") || status?.includes("Working");
