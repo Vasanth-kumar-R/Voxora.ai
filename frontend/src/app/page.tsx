@@ -8,7 +8,7 @@ import { CallHistoryView } from "@/components/CallHistoryView";
 import { FlowDeskKnowledgeDeck } from "@/components/FlowDeskKnowledgeDeck";
 import { DiagnosticsPanel } from "@/components/DiagnosticsPanel";
 import { useVoiceCall } from "@/hooks/useVoiceCall";
-import { getCallDetail } from "@/lib/api";
+import { getCallDetail } from "../lib/api";
 import { CallDetail } from "@/types/call";
 
 export default function Home() {
@@ -71,9 +71,9 @@ export default function Home() {
             onViewResults={() => setTab("results")}
           />
         )}
-        {tab === "results"     && <CallResultsView call={displayCall} onRefreshCall={handleRefresh} onStartNewCall={() => setTab("call")} />}
-        {tab === "history"     && <CallHistoryView onSelectCall={handleSelectFromHistory} />}
-        {tab === "product"     && <FlowDeskKnowledgeDeck />}
+        {tab === "results" && <CallResultsView call={displayCall} onRefreshCall={handleRefresh} onStartNewCall={() => setTab("call")} />}
+        {tab === "history" && <CallHistoryView onSelectCall={handleSelectFromHistory} />}
+        {tab === "product" && <FlowDeskKnowledgeDeck />}
         {tab === "diagnostics" && <DiagnosticsPanel />}
       </main>
 
